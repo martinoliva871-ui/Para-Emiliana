@@ -28,7 +28,9 @@ function volverMenu() {
 
     document.getElementById("menu").classList.remove("oculto");
 
-}const razones = [
+}
+
+const razones = [
 
 "Por tu belleza ❤️",
 "Por tu sonrisa ❤️",
