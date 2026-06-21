@@ -131,9 +131,24 @@ function volverMenu() {
 "Porque eres la mejor novia del mundo ❤️",
 "Por ser tú, y porque eso a veces no tiene una explicación clara ❤️",
 "Por llamarte Emiliana Antonia Muñoz Toledo jsjs ❤️"
-
-
 ];
+let indice = 0;
+
+function nuevaRazon() {
+
+    document.getElementById("numeroRazon").innerText =
+        "Razón #" + (indice + 1);
+
+    document.getElementById("textoRazon").innerText =
+        razones[indice];
+
+    indice++;
+
+    if (indice >= razones.length) {
+        indice = 0;
+    }
+
+}
 
 const mensajes = [
 
